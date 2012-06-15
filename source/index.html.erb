@@ -1,4 +1,5 @@
 <ul>
+
   <% blog.articles[0...10].each do |article| %>
   <li>
     <h2><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></h2>
@@ -6,3 +7,16 @@
   </li>
   <% end %>
 </ul>
+
+<section class="article-index music">
+    <% blog.articles.each_with_index do |article, i| %>
+        <% if article.data['category'] == 'music' %>
+            <article>
+            <h2><a href="<%= article.url.sub('.html','') %>"><%= article.title %></a></h2>
+            <time pubdate><%= article.date.strftime('%b %e') %></time>
+            <span class="categories"><%= article.tags %></span>
+            <%= article.summary %>
+            </article>
+        <% end %>
+    <% end %>
+</section>
