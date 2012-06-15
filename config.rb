@@ -47,17 +47,17 @@
 #   end
 # end
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'css'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'js'
 
-set :images_dir, 'images'
+set :images_dir, 'img'
 
 activate :blog do |blog|
-  blog.permalink = ":year/:month/:title.html"
+  blog.permalink = ":year/:month/:title"
   blog.sources = ":year-:month-:day-:title.html"
   blog.taglink = "tags/:tag.html"
-  blog.layout = "layout"
+  blog.layout = "single_post"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = ":year.html"
@@ -65,7 +65,7 @@ activate :blog do |blog|
   # blog.day_link = ":year/:month/:day.html"
   blog.default_extension = ".markdown"
 
-  blog.tag_template = "tag.html"
+  blog.tag_template = "posts.html"
   blog.calendar_template = "calendar.html"
 end
 
@@ -92,4 +92,14 @@ configure :build do
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
+end
+
+helpers do
+  def page_title
+    title = "Easymoo | "
+    if data.page.title 
+      title << data.page.title
+    end
+    title
+  end
 end

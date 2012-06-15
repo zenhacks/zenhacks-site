@@ -1,0 +1,40 @@
+<% wrap_layout :layout do %>
+<section id="content" class="container clearfix">
+
+	<header class="page-header">
+	
+  <h1 class="page-title"><%= data.page.title %></h1>
+		
+	</header><!-- end .page-header -->
+
+	<section id="main">
+
+		<article class="entry single clearfix">
+
+			<a href="single-post.html" title="">
+        <%= image_tag 'placeholders/blog-post-1.jpg', :class => 'entry-image', :alt => 'Blog Logo'%>
+			</a>
+
+			<div class="entry-body">
+        <%= yield %>
+			</div><!-- end .entry-body -->
+
+			<div class="entry-meta">
+
+        <%# FIXME add generate links for tags and date %>
+				<ul>
+          <li><a href='<%=  %>'><span class="post-format">Permalink</span></a></li>
+          <li><span class="title">Posted:</span> <a href="#"><%= data.page.date.strftime('%b %e') %></a></li>
+					<li><span class="title">Tags:</span> <a href="#"><%= data.page.tags %></a></li>
+				</ul>
+
+			</div><!-- end .entry-meta -->
+
+		</article><!-- end .entry -->
+
+	</section><!-- end #main -->
+
+  <%= partial 'partials/sidebar' %>
+
+</section><!-- end #content -->
+<% end %>
