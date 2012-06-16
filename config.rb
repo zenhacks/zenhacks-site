@@ -70,6 +70,7 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", :layout => false
+page "/index.html", :layout => :layout
 
 # Build-specific configuration
 configure :build do

@@ -1,22 +1,39 @@
-<ul>
+<section id="content" class="container clearfix">
 
-  <% blog.articles[0...10].each do |article| %>
-  <li>
-    <h2><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></h2>
-    <p><%= article.summary %></p>
-  </li>
-  <% end %>
-</ul>
+	<header class="page-header">
+	
+		<h1 class="page-title">Welcome to Easymoo Blog</h1>
+		
+	</header><!-- end .page-header -->
+	
+	<section id="main">
 
-<section class="article-index music">
-    <% blog.articles.each_with_index do |article, i| %>
-        <% if article.data['category'] == 'music' %>
-            <article>
-            <h2><a href="<%= article.url.sub('.html','') %>"><%= article.title %></a></h2>
-            <time pubdate><%= article.date.strftime('%b %e') %></time>
-            <span class="categories"><%= article.tags %></span>
-            <%= article.summary %>
-            </article>
-        <% end %>
+    <% blog.articles[0...4].each_with_index do |article, i| %>
+      <% puts article.inspect %>
+		<article class="entry clearfix">
+
+			<div class="entry-body">
+
+				<a href="<%= article.url %>">
+          <h1 class="title"><%= article.title %></h1>
+				</a>
+
+        <p><%= article.summary %></p>
+				
+			</div><!-- end .entry-body -->
+
+			<div class="entry-meta">
+
+				<ul>
+          <li><a href="<%= article.url.sub('.html', '') %>"><span class="post-format link">Permalink</span></a></li>
+					<li><span class="title">Posted:</span> <a href="#"><%= article.date.strftime('%b %e') %></a></li>
+          <li><span class="title">Tags:</span> <%= article.tags %></li>
+				</ul>
+				
+			</div><!-- end .entry-meta -->
+			
+		</article><!-- end .entry -->
     <% end %>
-</section>
+
+  <%= partials 'sidebar' %>	
+</section><!-- end #content -->
