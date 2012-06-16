@@ -1,0 +1,19 @@
+-
+  name: "Demo"
+  description: "Our Shining Product"
+  path: "//demo.easymoo.com"
+-
+  name: "Blog"
+  description: "About How we build"
+  path: "/blog/index.html"
+  sub_pages:
+    -
+      name: "Work"
+      path: "/blog/work"
+    -
+      name: "Life"
+      path: "/blog/life"
+-
+  name: "About Us"
+  description: "Know about us"
+  path: "/about.html"
