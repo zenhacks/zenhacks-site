@@ -8,7 +8,7 @@
 	
 	<section id="main">
 
-    <% blog.articles[0...4].each_with_index do |article, i| %>
+    <% data.blog.articles[0...4].each_with_index do |article, i| %>
       <% puts article.inspect %>
 		<article class="entry clearfix">
 
@@ -35,5 +35,6 @@
 		</article><!-- end .entry -->
     <% end %>
 
-  <%= partials 'sidebar' %>	
+  </section><!-- end #main -->
 </section><!-- end #content -->
+<%= partial 'partials/sidebar' %>	
