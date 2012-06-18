@@ -53,24 +53,19 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
-activate :blog do |blog|
-  blog.permalink = ":year/:month/:title"
-  blog.sources = ":year-:month-:day-:title.html"
-  blog.taglink = "tags/:tag.html"
-  blog.layout = "single_post"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = ":year.html"
-  # blog.month_link = ":year/:month.html"
-  # blog.day_link = ":year/:month/:day.html"
-  blog.default_extension = ".markdown"
+activate :blog
 
-  blog.tag_template = "posts.html"
-  blog.calendar_template = "calendar.html"
-end
+set :blog_permalink, "blog/:year/:title.html"
+set :blog_taglink, "categories/:tag.html"
+set :markdown, :layout_engine => :erb
+set :blog_layout, "post"
+set :blog_layout_engine, "ERb"
+
+# set :blog_index_template, ""
+set :blog_article_template, "post"
+
 
 page "/feed.xml", :layout => false
-page "/index.html", :layout => :layout
 
 # Build-specific configuration
 configure :build do
