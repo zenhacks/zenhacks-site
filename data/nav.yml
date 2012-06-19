@@ -1,19 +1,15 @@
 -
-  name: "Demo"
-  description: "Our Shining Product"
-  path: "//demo.easymoo.com"
+  name: "About Us"
+  description: "Elite, Unique, Innovative"
+  path: "/about.html"
 -
-  name: "Blog"
-  description: "About How we build"
-  path: "/blog/index.html"
+  name: "Hire"
+  description: "Where talents meet"
+  path: "/hiring.html"
   sub_pages:
     -
-      name: "Work"
-      path: "/blog/work"
+      name: "Roles"
+      path: "/hiring.html"
     -
-      name: "Life"
-      path: "/blog/life"
--
-  name: "About Us"
-  description: "Know about us"
-  path: "/about.html"
+      name: "Apply"
+      path: "/apply.html"
