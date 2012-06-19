@@ -29,7 +29,7 @@ body {
 	background: #fff;
 	border-top: 6px solid #3a3a3a;
 	color: #909090;
-	font: 11px/1.7 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font: 12px/1.7 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 }
