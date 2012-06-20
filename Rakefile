@@ -12,10 +12,10 @@ end
 desc "Deploy website via rsync"
 task :deploy do
   puts "## Deploying website via rsync to #{SSH_HOST}"
-  status = system("rsync -acuvz build/* #{SSH_HOST}:#{SSH_DIR}")
+  status = system("rsync -cuavz build/* #{SSH_HOST}:#{SSH_DIR}")
   puts status ? "OK" : "FAILED"
 end
 
 desc "Build and deploy website"
-task :gen_deploy => [:build, :deploy] do
+task :build_deploy => [:build, :deploy] do
 end
