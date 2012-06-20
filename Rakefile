@@ -1,6 +1,6 @@
 SSH_USER = 'yangchenun'
 SSH_HOST = 'emoo'
-SSH_DIR  = '/usr/local/nginx/html/'
+SSH_DIR  = '/var/nginx/easymoo_index/'
 
 desc "Build the website from source"
 task :build do
