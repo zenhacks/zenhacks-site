@@ -92,7 +92,7 @@ end
 
 helpers do
   def page_title
-    title = "Easymoo | "
+    title = "EasyMoo | "
     if data.page.title 
       title << data.page.title
     end
