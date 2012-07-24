@@ -1,0 +1,108 @@
+---
+title: Application Form for Easymoo.com
+---
+<section id="content" class="container clearfix">
+
+	<header class="page-header">
+    <h1 class="page-title">You do know some math, do you?</h1>
+	</header><!-- end .page-header -->
+
+<p>Here we build a simple math server providing four simple math APIs to the world.</p>
+
+<p>You could choose <strong>either one of the two tasks</strong> which you find comfortable with:</p>
+
+<ul>
+<li>Build an API server</li>
+<li>Build a web-based calculator</li>
+</ul>
+
+
+<p>The detailed requirements could be found below:</p>
+
+<h2>Build an API server</h2>
+
+<p><strong>requirements</strong>:</p>
+
+<ul>
+<li>return value in JSON format.</li>
+<li>Upload the code to github.com.</li>
+</ul>
+
+
+<p><strong>extras</strong>:</p>
+
+<ul>
+<li>Deal with performance issue</li>
+<li>Error handling for invalid input</li>
+</ul>
+
+
+<h3>API Specs</h3>
+
+<h4>Calculate the square</h4>
+
+<p><code>/square/a</code></p>
+
+<p>return the number of the square of <code>a</code>.</p>
+
+<p>For example:</p>
+
+<pre><code>curl -f http://localhost/square/34.2
+{"a":"34.2","result":1169.64}
+</code></pre>
+
+<h4>Calculate the multiple of two numbers</h4>
+
+<p><code>/mult/a/b</code></p>
+
+<p>return the result of <code>a * b</code></p>
+
+<p>For example:</p>
+
+<pre><code>$ curl -f http://localhost/mult/3.3/3
+{"a":"3.3","b":"3","result":9.899999999999999}
+</code></pre>
+
+<h4>Calcualte the factorial of a</h4>
+
+<p><code>/factorial/a</code></p>
+
+<p>returns the result of factorial of <code>a</code></p>
+
+<pre><code>$ curl -f http://localhost/factorial/20
+{"n":"20","result":2432902008176640000}
+</code></pre>
+
+<h4>Calcualte the fibonacci of a</h4>
+
+<p><code>/fibonacci/a</code></p>
+
+<p>returns the result of fibonacci of <code>a</code></p>
+
+<pre><code>$ curl -f http://localhost/fibonacci/20
+{"n":"20","result":6765}
+</code></pre>
+
+<h2>Build a calculator</h2>
+
+<p>First download <a href="http://easymoo.com/task.zip">the project skeletion</a> to bootstrap your work.</p>
+
+<p><strong>requirements</strong>:</p>
+
+<ul>
+<li>Everytime the user submit the form, update the result.</li>
+<li>Upload the code to github.com.</li>
+</ul>
+
+
+<p><strong>extras</strong>:</p>
+
+<ul>
+<li>Deal with performance issue</li>
+<li>Error handling for invalid input</li>
+</ul>
+
+<p><strong>Specs</strong>:</p>
+
+<p>The calculation specs should be the same as the server API.</p>
+</section><!-- end #content -->
