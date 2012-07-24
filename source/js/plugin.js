@@ -1,1 +1,7 @@
-//= require_tree './plugins'
+//= require './plugins/respond.js'
+//= require './plugins/jquery.easing.js'
+//= require './plugins/jquery.fancybox.pack.js'
+//= require './plugins/jquery.smartStartSlider.js'
+//= require './plugins/jquery.jcarousel.js'
+//= require './plugins/jquery.cycle.all.js'
+//= require './plugins/jquery.isotope.js'
