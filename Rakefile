@@ -1,4 +1,4 @@
-SSH_USER = 'yangchenun'
+SSH_USER = 'deploy'
 SSH_HOST = 'maxwell'
 SSH_DIR  = '/srv/www/htdocs/easymoo_index/'
 
