@@ -1,4 +1,4 @@
-source :rubygems
+source 'http://ruby.taobao.org'
 
   gem "middleman", "~>2.0"
   gem "middleman-blog", "0.1.5"
