@@ -2,6 +2,13 @@ SSH_USER = 'deploy'
 SSH_HOST = 'maxwell'
 SSH_DIR  = '/srv/www/htdocs/easymoo_index/'
 
+desc "Preview the website with middleman"
+task :preview do
+  puts "## Launch the previewer"
+  status = system("bundle exec middleman server")
+  puts status ? "OK" : "FAILED"
+end
+
 desc "Build the website from source"
 task :build do
   puts "## Building website"
