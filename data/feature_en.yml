@@ -1,0 +1,80 @@
+-
+  class-name: hardware
+  name: Simple hardware
+  title: Easy-to-Use Hardware
+  details:
+    - iPad, iPhone, & iPod Touch, Android Tablet, Android Phone Supported
+    - ManZuo's native iOS & Android app provides a more responsive user-interface than web-based apps, providing for faster operation at the host stand.
+-
+  class-name: sync
+  name: Multi-Device Sync
+  title: Seat Parties Faster
+  details:
+    - ManZuo Syncs in the Cloud
+    - ManZuo stores the wait list in the cloud so you can access your real-time wait list from multiple devices around the restaurant. Notify parties from the floor instead of returning to the host stand.
+    - Assign a party to a table and FullSeats automatically updates the host.
+-
+  class-name: visual
+  name: Visual Cues
+  title: Operate Faster & Stay Organized
+  details:
+    - Visual Cues & Wait List Tools
+    - Stats Header - Total Parties and Quote Times by Party Size
+    - Party Details - Name, Party Size, Notes, and standardized Seating Area Icon
+    - 1-Touch Notify - Notify and Seat Buttons on the main queue screen
+    - Party Type - Walk-in, Call-Ahead, and Reservation Parties all integrate into one list with different icons. FullSeats sends unique messages to each party type.
+-
+  class-name: training
+  name: Peer to Peer Training
+  title: Train in 10 Minutes
+  details:
+    - In-App Instruction
+    - Peer-to-Peer Training
+-
+  class-name: customize
+  name: customize
+  title: Customize Your Messaging & More
+  details:
+    - Online Web Portal
+    - Account holders customize Messaging and Seating Areas, add Speed Keys, and add recipients to the Stats Email.
+-
+  class-name: analytics
+  name: Analytics
+  title: Review Your Stats & Usage
+  details:
+    - Daily Email Summary
+    - FullSeats delivers an email daily with actionable analytics.
+    - Total Parties - Review Parties and Guests added to the wait list
+    - Removes & Walk Outs -Understand business lost while on a wait
+    - Actual vs Quoted Wait Times -Measure the actual wait vs. the host quote to reduce quoting inaccuracy
+-
+  class-name: updates
+  name: Auto-Updates
+  title: Auto Update Your Guests
+  details:
+    - Free the Host & Seat Parties Faster
+    - Initially the guest receives a message including wait confirmation and the "What's My Place?" feature.
+    - What's My Place? reassures customers and reduces interruptions to the hostess.
+-
+  class-name: notification
+  name: Text Notifications
+  title: Eliminate Pager Loss
+  details:
+    - Text Message Paging
+    - Text Message Paging eliminates restaurant pagers loss.
+    - Text Message Paging delivers drink and entrée specials, gift cards and offers, or other detail to your guest. Messages are customizable.
+-
+  class-name: inbox
+  name: Inbox
+  title: Receive Real-Time Confirmation
+  details:
+    - Text Message Inbox
+    - Text-Back reduces confusion.
+    - Guests can confirm or cancel upon being texted that the table is ready.
+-
+  class-name: marketing
+  name: Marketing
+  title: Automatically Build Marketing Lists
+  details:
+    - Integrated Text Marketing
+    - A final thank you message automatically prompts guests to join an account specific text marketing list.
