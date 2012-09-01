@@ -1,3 +1,34 @@
+@import 'compass'
+
+#feature-lists
+  border-bottom: 1px solid #EFEFEF
+  margin: -15px 0 40px
+  
+ul.features 
+  list-style-type: none
+  margin: 40px 0 25px
+  padding: 0 !important
+  overflow: auto
+
+  li
+    margin: 10px 0
+    display: block
+    float: left
+    width: 160px
+    padding: 0 6px
+    text-align: center
+    position: relative
+
+
+    a span
+      color: #3a3a3a !important
+
+    a.link, a:visited
+      text-decoration: none
+
+    a.hover .featureicon span
+      opacity: 1
+
 .featureicon 
   background-image: url('../img/featureicons.png')
   display: block
@@ -6,79 +37,116 @@
   width: 82px
   position: relative
 
-.featureicon.hardware { background-position: 0 0 }
-.featureiconreicon.sync { background-position: -82px 0 }
-.featureicon.visual { background-position: -164px 0 }
-.featureicon.training { background-position: -246px 0 }
-.featureicon.customize { background-position: -328px 0 }
-.featureicon.analytics { background-position: -410px 0 }
-.featureicon.updates { background-position: -492px 0 }
-.featureicon.notifications { background-position: -574px 0 }
-.featureicon.inbox { background-position: -656px 0 }
-.featureicon.marketing { background-position: -738px 0 }
+  span
+    position: absolute
+    top: 0 
+    left: 0 
+    bottom: 0 
+    right: 0
+    background-image: url('../img/featureicons.png')
+    opacity: 0
+    +transition(opacity .25s)
 
-ul.features li a .featureicon span {
-  position: absolute
-  top: 0 left: 0 bottom: 0 right: 0
-  background-image: url('../img/featureicons.png')
-  opacity: 0
-  transition: opacity .25s
-  -webkit-transition: opacity .25s
-  -moz-transition: opacity .25s
-  -o-transition: opacity .25s
-}
-
-ul.features li a.hover .featureiconscon span {
-  opacity: 1
-}
+.featureicon.hardware 
+  background-position: 0 0 
+.featureicon.sync 
+  background-position: -82px 0 
+.featureicon.visual 
+  background-position: -164px 0 
+.featureicon.training 
+  background-position: -246px 0 
+.featureicon.customize 
+  background-position: -328px 0 
+.featureicon.analytics 
+  background-position: -410px 0 
+.featureicon.updates 
+  background-position: -492px 0 
+.featureicon.notification 
+  background-position: -574px 0 
+.featureicon.inbox 
+  background-position: -656px 0 
+.featureicon.marketing 
+  background-position: -738px 0 
 
 .no-csstransitions .features li a:hover .featureicon.hardware,
 .featureicon.hardware span,
 #hardware .featureicon 
-	 background-position: 0 -83px 
+  background-position: 0 -83px 
 
 .no-csstransitions .features li a:hover .featureicon.sync,
 .featureicon.sync span,
 #sync .featureicon 
-	 background-position: -82px -83px 
+  background-position: -82px -83px 
 
 .no-csstransitions .features li a:hover .featureicon.visual,
 .featureicon.visual span,
-#waitlist .featureicon 
-	 background-position: -164px -83px 
+#visual .featureicon 
+  background-position: -164px -83px 
 
 .no-csstransitions .features li a:hover .featureicon.training,
 .featureicon.training span,
 #training .featureicon 
-	 background-position: -246px -83px 
+  background-position: -246px -83px 
 
 .no-csstransitions .features li a:hover .featureicon.customize,
 .featureicon.customize span,
-#customization .featureicon 
-	 background-position: -328px -83px 
+#customize .featureicon 
+  background-position: -328px -83px 
 
 .no-csstransitions .features li a:hover .featureicon.analytics,
 .featureicon.analytics span,
 #analytics .featureicon 
-	 background-position: -410px -83px 
+  background-position: -410px -83px 
 
 .no-csstransitions .features li a:hover .featureicon.updates,
 .featureicon.updates span,
-#guest-updates .featureicon 
-	 background-position: -492px -83px 
+#updates .featureicon 
+  background-position: -492px -83px 
 
-.no-csstransitions .features li a:hover .featureicon.notifications,
-.featureicon.notifications span,
-#text-notification .featureicon 
-	 background-position: -574px -83px 
+.no-csstransitions .features li a:hover .featureicon.notification,
+.featureicon.notification span,
+#notification .featureicon 
+  background-position: -574px -83px 
 
 .no-csstransitions .features li a:hover .featureicon.inbox,
 .featureicon.inbox span,
 #inbox .featureicon 
-	 background-position: -656px -83px 
+  background-position: -656px -83px 
 
 .no-csstransitions .features li a:hover .featureicon.marketing,
 .featureicon.marketing span,
 #marketing .featureicon 
-	 background-position: -738px -83px 
+  background-position: -738px -83px 
+
+#feature-details
+  section
+    margin-bottom: 80px
+    position: relative
+
+    .title
+      margin: -15px 0 40px
+
+    .featureicon
+      float: left
+      margin-right: 35px
+
+    ul
+      padding: 0 50px 0 90px
+      font-size: 16px
+
+  a.bottomlink
+    position: absolute
+    bottom: -50px 
+    right: 0
+    background: #393433
+    color: white
+    font-weight: 700
+    font-size: .8em
+    padding: 5px 12px
+    +transition(all .1s)
+    text-decoration: none
+
+    span
+      color: white
+      font-size: 10px
 

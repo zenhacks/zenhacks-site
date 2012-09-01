@@ -1,0 +1,44 @@
+---
+title: Easymoo Product Introduction
+---
+<section id="content" class="container clearfix">
+
+	<h2 class="slogan align-center">我们创造简单, 有效, 好用的工具.</h2>
+  <section id="feature-lists" class="clearfix">
+    <ul class="features">
+    <% data.feature_cn.each do |feature| %>
+      <li>
+        <a href="#<%= feature['class-name'] %>">
+          <span class="featureicon <%= feature['class-name'] %>"><span></span></span>
+          <span class="feature"> <%= feature['name'] %></span>
+        </a>
+      </li>
+    <% end %>
+    </ul>
+  </section><!-- end #feature-lists -->
+
+  <section id="feature-details">
+    <% data.feature_cn.each_with_index do |feature, index| %>
+      <section id="<%= feature['class-name'] %>">
+        <div class="content">
+          <div class="title">
+            <span class="featureicon"></span>
+            <hgroup>
+            <h2 class="value"><%= feature['title']%></h2>
+            <%# <h3 class="feature">iPad, iPhone, &amp; iPod Touch</h3> %>
+            </hgroup>
+          </div>
+          <ul>
+          <% feature['details'].each do |detail| %>
+            <li><%= detail %></li>
+          <% end %>
+          </ul>
+        </div>
+        <% if index % 2 != 0 %>
+          <a class="bottomlink" href="#"><span>Top ▴</span></a>
+        <% end %>
+      </section>	
+    <% end %>
+  </section><!-- end #feature-details -->
+
+</section><!-- end #content -->
