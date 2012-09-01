@@ -1,15 +1,23 @@
 -
+  name: "Features"
+  description: "Precice, Professional, Effective"
+  path: "/feature.html"
+-
+  name: "Why Manzuo"
+  description: "Elegant, Effective, Low-Cost"
+  path: "/why-us-cn.html"
+-
   name: "About Us"
   description: "Elite, Unique, Innovative"
   path: "/about.html"
--
-  name: "Hire"
-  description: "Where talents meet"
-  path: "/hiring.html"
-  sub_pages:
-    -
-      name: "Roles"
-      path: "/hiring.html"
-    -
-      name: "Apply"
-      path: "/apply.html"
+# -
+  # name: "Hire"
+  # description: "Where talents meet"
+  # path: "/hiring.html"
+  # sub_pages:
+    # -
+      # name: "Roles"
+      # path: "/hiring.html"
+    # -
+      # name: "Apply"
+      # path: "/apply.html"
