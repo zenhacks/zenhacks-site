@@ -1,14 +1,14 @@
 -
-  name: "功能介绍"
-  description: "Features"
+  name: "Features"
+  description: "Precice, Professional, Effective"
   path: "/feature.html"
 -
-  name: "选择满座"
-  description: "Why Us"
+  name: "Why Manzuo"
+  description: "Elegant, Effective, Low-Cost"
   path: "/why-us-cn.html"
 -
-  name: "关于我们"
-  description: "About Us"
+  name: "About Us"
+  description: "Elite, Unique, Innovative"
   path: "/about.html"
 # -
   # name: "Hire"
