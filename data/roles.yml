@@ -1,27 +1,34 @@
+# -
+  # name: Frontend Developer
+  # requirements:
+    # - Understanding HTML/CSS     
+    # - Expert at javaScript / jQuery
+    # - How HTTP protocols work with the browser
+# -
+  # name: Backend Developer
+  # requirements:
+    # - Work on Linux
+    # - Experience with Python/Ruby
+    # - Experience with SQL/noSQL DB.
+    # - Understanding HTTP protocols and its alternatives
+  # name: System Administrator
+  # requirements:
+    # - Work on Linux
+    # - Experience with one scripting language - Python/Ruby/Perl
 -
-  name: Frontend Developer
+-
+  name: Hacker
   requirements:
-    - Understanding HTML/CSS     
-    - Expert at javaScript / jQuery
-    - How HTTP protocols work with the browser
--
-  name: Backend Developer
-  requirements:
-    - Work on Linux
-    - Experience with Python/Ruby
-    - Experience with SQL/noSQL DB.
-    - Understanding HTTP protocols and its alternatives
--
-  name: System Administrator
-  requirements:
-    - Work on Linux
-    - Experience with one scripting language - Python/Ruby/Perl
--
+    - Work under unix system and embrace its philosophy
+    - Expert in one computer language, be it C, LISP, Ruby or Python
+    - Know the art of web technology
+    - Love creating elegant and useful product
+
   name: Designer
   requirements:
-    - Efficient with mockup tool, even it is <b>pen&paper</b>.
-    - Interested User Experience.
-    - Users of various webapp, iOS app, android app.
+    - Express your self with drawing or painting
+    - Experience with PS, FW
+    - Portfolio is required
 -
   name: Business Development Pilot
   requirements:
