@@ -30,102 +30,19 @@ title: "We are Hiring"
     <p>
       <a class="button" href="/apply.html">Apply Now</a>
     </p>
-    <h4 class="acc-trigger">
-      <a href="#">Frontend Developer</a>
-    </h4>
+    <% data.roles.each do |role| %>
+      <h4 class="acc-trigger">
+        <a href="#"><%= role['name'] %></a>
+      </h4>
 
-    <div class="acc-container">
-      <div class="content">
-        <li> Understanding HTML/CSS     </li>
-        <li> Expert at javaScript / jQuery</li>
-        <li> How HTTP protocols work with the browser</li>
+      <div class="acc-container">
+        <div class="content">
+          <% role['requirements'].each do |line| %>
+            <li><%= line %></li>
+          <% end %>
+        </div>
       </div>
-    </div>
-
-    <h4 class="acc-trigger">
-      <a href="#">Backend Developer</a>
-    </h4>
-
-    <div class="acc-container">
-      <div class="content">
-        <li> Work on Linux</li>
-        <li> Experience with Python/Ruby</li>
-        <li> Experience with SQL/noSQL DB.</li>
-        <li> Understanding HTTP protocols and its alternatives      </li>
-      </div>
-    </div>
-
-    <h4 class="acc-trigger">
-      <a href="#">System Administrator</a>
-    </h4>
-
-    <div class="acc-container">
-      <div class="content">
-        <ul>
-          <li> Work on Linux</li>
-          <li> Experience with one scripting language - Python/Ruby/Perl</li>
-        </ul>
-
-      </div>
-    </div>
-
-    <h4 class="acc-trigger">
-      <a href="#">Designer</a>
-    </h4>
-
-    <div class="acc-container">
-      <div class="content">
-        <ul>
-          <li> Efficient with mockup tool, even it is <b>pen&paper</b>.</li>
-          <li> Interested User Experience.</li>
-          <li> Users of various webapp, iOS app, android app.</li>
-        </ul>
-
-      </div>
-    </div>
-
-    <h4 class="acc-trigger">
-      <a href="#">Business Development Pilot</a>
-    </h4>
-
-    <div class="acc-container">
-      <div class="content">
-        <ul>
-          <li>Fast learner and self-motivated problem solver</li>
-          <li>Good at story telling and pitching</li>
-          <li>Strong willing to try and win</li>
-        </ul>
-      </div>
-    </div>
-
-    <h4 class="acc-trigger">
-      <a href="#">Story Teller</a>
-    </h4>
-
-    <div class="acc-container">
-      <div class="content">
-        <ul>
-          <li>Good writing capability in both English and Chinese</li>
-          <li>Good at story telling and creative thinking</li>
-          <li>Fond of SNS and online promotion</li>
-          <li>Experience in business development and event planning will be a plus</li>
-        </ul>
-      </div>
-    </div>
-
-    <h4 class="acc-trigger">
-      <a href="#">Market Digger</a>
-    </h4>
-
-    <div class="acc-container">
-      <div class="content">
-        <ul>
-          <li>Good business sense and strong strategic thinking</li>
-          <li>Willingness to talk and communicate with customers</li>
-          <li>Fast learner and dedicated to work</li>
-        </ul>
-      </div>
-    </div>
+    <% end %>
   </div><!-- end .three-fourth -->
 
   <div class="one-fourth last">

@@ -1,0 +1,43 @@
+-
+  name: Frontend Developer
+  requirements:
+    - Understanding HTML/CSS     
+    - Expert at javaScript / jQuery
+    - How HTTP protocols work with the browser
+-
+  name: Backend Developer
+  requirements:
+    - Work on Linux
+    - Experience with Python/Ruby
+    - Experience with SQL/noSQL DB.
+    - Understanding HTTP protocols and its alternatives
+-
+  name: System Administrator
+  requirements:
+    - Work on Linux
+    - Experience with one scripting language - Python/Ruby/Perl
+-
+  name: Designer
+  requirements:
+    - Efficient with mockup tool, even it is <b>pen&paper</b>.
+    - Interested User Experience.
+    - Users of various webapp, iOS app, android app.
+-
+  name: Business Development Pilot
+  requirements:
+    - Fast learner and self-motivated problem solver
+    - Good at story telling and pitching
+    - Strong willing to try and win
+-
+  name: Story Teller
+  requirements:
+    - Good writing capability in both English and Chinese
+    - Good at story telling and creative thinking
+    - Fond of SNS and online promotion
+    - Experience in business development and event planning will be a plus
+-
+  name: Market Digger
+  requirements:
+    - Good business sense and strong strategic thinking
+    - Willingness to talk and communicate with customers
+    - Fast learner and dedicated to work
