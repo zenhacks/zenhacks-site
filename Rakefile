@@ -1,6 +1,6 @@
 SSH_USER = 'deploy'
 SSH_HOST = 'maxwell'
-SSH_DIR  = '/srv/www/htdocs/easymoo_index/'
+SSH_DIR  = '/srv/www/htdocs/zenhacks_index/'
 
 desc "Preview the website with middleman"
 task :preview do
