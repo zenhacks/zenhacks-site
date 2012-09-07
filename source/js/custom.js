@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
 			$cont.data('dir', '')
 			if( e.target.className.indexOf('prev') > -1 ) $cont.data('dir', 'prev');
 		});
-		
+
 		$cont.css('overflow', 'hidden');
 		opts.before.push($.fn.cycle.commonReset);
 		var w = $cont.width();
@@ -67,12 +67,12 @@ jQuery(document).ready(function($) {
 	/* ---------------------------------------------------------------------- */
 	/*	Main Navigation
 	/* ---------------------------------------------------------------------- */
-	
+
 	(function() {
 
 		var $mainNav    = $('#main-nav').children('ul'),
 			optionsList = '<option value="" selected>Navigate...</option>';
-		
+
 		// Regular nav
 		$mainNav.on('mouseenter', 'li', function() {
 			var $this    = $(this),
@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
 		$('.responsive-nav').on('change', function() {
 			window.location = $(this).val();
 		});
-		
+
 	})();
 
 	/* end Main Navigation */
@@ -128,7 +128,7 @@ jQuery(document).ready(function($) {
 				- $('#footer').outerHeight(true)
 				- $('#footer-bottom').outerHeight(true)
 			);
-		
+
 		}
 
 		// Init
@@ -216,7 +216,7 @@ jQuery(document).ready(function($) {
 			});
 
 		});
-		
+
 	})();
 
 	/* end Fancybox */
@@ -260,27 +260,27 @@ jQuery(document).ready(function($) {
 			if( Modernizr.touch ) {
 
 				function swipeFunc( e, dir ) {
-				
+
 					var $slider = $(e.currentTarget);
-					
+
 					if( dir === 'left' )
 						$slider.find('.pagination-container .next').trigger('click');
-					
+
 					if( dir === 'right' )
 						$slider.find('.pagination-container .prev').trigger('click');
-					
+
 				}
-				
+
 				$slider.swipe({
 					swipeLeft       : swipeFunc,
 					swipeRight      : swipeFunc,
 					allowPageScroll : 'auto'
 				});
-				
+
 			}
 
 		}
-		
+
 	})();
 
 	/* end Features Slider */
@@ -322,29 +322,29 @@ jQuery(document).ready(function($) {
 
 			// Detect swipe gestures support
 			if( Modernizr.touch ) {
-				
+
 				function swipeFunc( e, dir ) {
-				
+
 					var $slider = $(e.currentTarget);
-					
+
 					if( dir === 'left' )
 						$slider.find('.pagination-container .next').trigger('click');
-					
+
 					if( dir === 'right' )
 						$slider.find('.pagination-container .prev').trigger('click');
-					
+
 				}
-				
+
 				$slider.swipe({
 					swipeLeft       : swipeFunc,
 					swipeRight      : swipeFunc,
 					allowPageScroll : 'auto'
 				});
-				
+
 			}
 
 		}
-		
+
 	})();
 
 	/* end Logos Slider */
@@ -386,29 +386,29 @@ jQuery(document).ready(function($) {
 
 			// Detect swipe gestures support
 			if( Modernizr.touch ) {
-				
+
 				function swipeFunc( e, dir ) {
-				
+
 					var $slider = $(e.currentTarget);
-					
+
 					if( dir === 'left' )
 						$slider.find('.pagination-container .next').trigger('click');
-					
+
 					if( dir === 'right' )
 						$slider.find('.pagination-container .prev').trigger('click');
-					
+
 				}
-				
+
 				$slider.swipe({
 					swipeLeft       : swipeFunc,
 					swipeRight      : swipeFunc,
 					allowPageScroll : 'auto'
 				});
-				
+
 			}
 
 		}
-		
+
 	})();
 
 	/* end Photos Slider */
@@ -501,25 +501,25 @@ jQuery(document).ready(function($) {
 
 			// Detect swipe gestures support
 			if( Modernizr.touch ) {
-				
+
 				function swipeFunc( e, dir ) {
-				
+
 					var $carousel = $(e.currentTarget);
-					
+
 					if( dir === 'left' )
 						$carousel.parent('.jcarousel-clip').siblings('.jcarousel-next').trigger('click');
-					
+
 					if( dir === 'right' )
 						$carousel.parent('.jcarousel-clip').siblings('.jcarousel-prev').trigger('click');
-					
+
 				}
-			
+
 				$carousel.swipe({
 					swipeLeft       : swipeFunc,
 					swipeRight      : swipeFunc,
 					allowPageScroll : 'auto'
 				});
-				
+
 			}
 
 			// Window resize
@@ -551,7 +551,7 @@ jQuery(document).ready(function($) {
 
 			// Run slider when all images are fully loaded
 			$(window).load(function() {
-				
+
 				$slider.each(function(i) {
 					var $this = $(this);
 
@@ -577,9 +577,9 @@ jQuery(document).ready(function($) {
 							 width           : '100%'
 						 })
 						 .data( 'slideCount', $slider.children('li').length );
-					
+
 				});
-			
+
 				// Position nav
 				var $arrowNav = $('.image-gallery-slider-nav a');
 				$arrowNav.css('margin-top', - $arrowNav.height() / 2 );
@@ -594,7 +594,7 @@ jQuery(document).ready(function($) {
 				// Hide navigation if only a single slide
 				if( $slider.data('slideCount') <= 1 )
 					$slider.next('.image-gallery-slider-nav').hide();
-				
+
 			});
 
 			// Resize
@@ -612,26 +612,26 @@ jQuery(document).ready(function($) {
 
 			// Detect swipe gestures support
 			if( Modernizr.touch ) {
-				
+
 				function swipeFunc( e, dir ) {
-				
+
 					var $slider = $( e.currentTarget );
 
 					// Enable swipes if more than one slide
 					if( $slider.data('slideCount') > 1 ) {
-											
+
 						$slider.data('dir', '');
-						
+
 						if( dir === 'left' )
 							$slider.cycle('next');
-						
+
 						if( dir === 'right' ) {
 							$slider.data('dir', 'prev')
 							$slider.cycle('prev');
 						}
 
 					}
-					
+
 				}
 
 				$slider.swipe({
@@ -731,7 +731,7 @@ jQuery(document).ready(function($) {
 		if( $player.length ) {
 
 			function adjustPlayer() {
-			
+
 				$player.each(function( i ) {
 
 					var $this        = $(this)
@@ -809,7 +809,7 @@ jQuery(document).ready(function($) {
 				"iframe[src^='http://player.vimeo.com']",
 				"iframe[src^='http://www.youtube.com']",
 				"iframe[src^='http://blip.tv']",
-				"iframe[src^='http://www.kickstarter.com']", 
+				"iframe[src^='http://www.kickstarter.com']",
 				"object",
 				"embed"
 			],
@@ -876,7 +876,7 @@ jQuery(document).ready(function($) {
 			});
 
 			function adjustPlayer( resize ){
-			
+
 				$player.each(function( i ) {
 
 					var $this            = $(this),
@@ -915,7 +915,7 @@ jQuery(document).ready(function($) {
 
 					$this.width( $this.parent().width() );
 					$progressBar.width( playerWidth - ( lisWidth - $progressBar.width() ) );
-					
+
 				});
 
 			}
@@ -965,37 +965,37 @@ jQuery(document).ready(function($) {
 	/*	Accordion Content
 	/* ---------------------------------------------------------------------- */
 
-	(function() {
+	// (function() {
 
-		var $container = $('.acc-container'),
-			$trigger   = $('.acc-trigger');
+		// var $container = $('.acc-container'),
+			// $trigger   = $('.acc-trigger');
 
-		$container.hide();
-		$trigger.first().addClass('active').next().show();
+		// $container.hide();
+		// $trigger.first().addClass('active').next().show();
 
-		var fullWidth = $container.outerWidth(true);
-		$trigger.css('width', fullWidth);
-		$container.css('width', fullWidth);
-		
-		$trigger.on('click', function(e) {
-			if( $(this).next().is(':hidden') ) {
-				$trigger.removeClass('active').next().slideUp(300);
-				$(this).toggleClass('active').next().slideDown(300);
-			}
-			e.preventDefault();
-		});
+		// var fullWidth = $container.outerWidth(true);
+		// $trigger.css('width', fullWidth);
+		// $container.css('width', fullWidth);
 
-		// Resize
-		$(window).on('resize', function() {
-			fullWidth = $container.outerWidth(true)
-			$trigger.css('width', $trigger.parent().width() );
-			$container.css('width', $container.parent().width() );
-		});
+		// $trigger.on('click', function(e) {
+			// if( $(this).next().is(':hidden') ) {
+				// $trigger.removeClass('active').next().slideUp(300);
+				// $(this).toggleClass('active').next().slideDown(300);
+			// }
+			// e.preventDefault();
+		// });
 
-	})();
+		// // Resize
+		// $(window).on('resize', function() {
+			// fullWidth = $container.outerWidth(true)
+			// $trigger.css('width', $trigger.parent().width() );
+			// $container.css('width', $container.parent().width() );
+		// });
+
+	// })();
 
 	/* end Accordion Content */
-	
+
 	/* ---------------------------------------------------- */
 	/*	Content Tabs
 	/* ---------------------------------------------------- */
@@ -1020,7 +1020,7 @@ jQuery(document).ready(function($) {
 
 			$this.siblings().removeClass('active').end()
 				 .addClass('active');
-			
+
 			$this.parent().next().children('.tab-content').stop(true,true).hide()
 														  .siblings( $this.find('a').attr('href') ).fadeIn();
 
@@ -1055,7 +1055,7 @@ jQuery(document).ready(function($) {
 						element.html( data );
 					}
 			});
-			
+
 		}
 
 		// Latest Tweets
@@ -1069,7 +1069,7 @@ jQuery(document).ready(function($) {
 			fetchFeed( 'php/flickr.php', $flickrContainer );
 
 	})();
-		
+
 	/* end PHP Widgets */
 
 	/* ---------------------------------------------------------------------- */
@@ -1084,31 +1084,31 @@ jQuery(document).ready(function($) {
 
 		$form.append('<div id="response" class="hidden">');
 		var $response = $('#response');
-		
+
 		// Do what we need to when form is submitted.
 		$form.on('click', 'input[type=submit]', function(e){
 
 			// Hide any previous response text and show loader
 			$response.hide().html( $loader ).show();
-			
-			// Make AJAX request 
+
+			// Make AJAX request
 			$.post('php/contact-send.php', $form.serialize(), function( data ) {
-			
+
 				// Show response message
 				$response.html( data );
 
 				// Scroll to bottom of the form to show respond message
 				var bottomPosition = $form.offset().top + $form.outerHeight() - $(window).height();
-				
+
 				if( $(document).scrollTop() < bottomPosition )
 					$('html, body').animate({ scrollTop : bottomPosition });
-				
+
 				// If form has been sent succesfully, clear it
 				if( data.indexOf('success') !== -1 )
 					$form.find('input:not(input[type="submit"]), textarea, select').val('').attr( 'checked', false );
-				
+
 			});
-			
+
 			// Cancel default action
 			e.preventDefault();
 		});
@@ -1116,7 +1116,7 @@ jQuery(document).ready(function($) {
 	})();
 
 	/* end Contact Form */
-	
+
 	/* ---------------------------------------------------------------------- */
 	/*	UItoTop (Back to Top)
 	/* ---------------------------------------------------------------------- */
@@ -1142,7 +1142,7 @@ jQuery(document).ready(function($) {
 		// Detect if older Android device, which doesn't support fixed position
 		if( /Android\s+([0-2][\.\d]+)/i.test(navigator.userAgent) )
 			oldAndroid = true;
-	
+
 		$('body').append('<a href="#" id="' + settings.button.substring(1) + '" title="' + settings.text + '">' + settings.text + '</a>');
 
 		$( settings.button ).click(function( e ){
@@ -1161,9 +1161,9 @@ jQuery(document).ready(function($) {
 				});
 			}
 
-			if ( position > settings.min ) 
+			if ( position > settings.min )
 				$( settings.button ).fadeIn( settings.fadeIn );
-			else 
+			else
 				$( settings.button ).fadeOut( settings.fadeOut );
 		});
 
