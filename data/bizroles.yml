@@ -1,16 +1,16 @@
 -
-  name: Business Development Pilot
-  requirements:
-    - Fast learner and self-motivated problem solver
-    - Good at story telling and pitching
-    - Strong willing to try and win
--
   name: Story Teller
   requirements:
     - Good writing capability in both English and Chinese
     - Good at story telling and creative thinking
     - Fond of SNS and online promotion
     - Experience in business development and event planning will be a plus
+-
+  name: Business Development Pilot
+  requirements:
+    - Fast learner and self-motivated problem solver
+    - Good at story telling and pitching
+    - Strong willing to try and win
 # -
   # name: Market Digger
   # requirements:
