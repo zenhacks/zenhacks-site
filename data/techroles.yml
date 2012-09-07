@@ -16,35 +16,15 @@
     # - Work on Linux
     # - Experience with one scripting language - Python/Ruby/Perl
 -
--
   name: Hacker
   requirements:
     - Work under unix system and embrace its philosophy
     - Expert in one computer language, be it C, LISP, Ruby or Python
     - Know the art of web technology
     - Love creating elegant and useful product
-
+-
   name: Designer
   requirements:
     - Express your self with drawing or painting
     - Experience with PS, FW
     - Portfolio is required
--
-  name: Business Development Pilot
-  requirements:
-    - Fast learner and self-motivated problem solver
-    - Good at story telling and pitching
-    - Strong willing to try and win
--
-  name: Story Teller
-  requirements:
-    - Good writing capability in both English and Chinese
-    - Good at story telling and creative thinking
-    - Fond of SNS and online promotion
-    - Experience in business development and event planning will be a plus
--
-  name: Market Digger
-  requirements:
-    - Good business sense and strong strategic thinking
-    - Willingness to talk and communicate with customers
-    - Fast learner and dedicated to work
