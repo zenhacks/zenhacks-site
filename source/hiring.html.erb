@@ -8,34 +8,41 @@ title: "We are Hiring"
 		
 	</header><!-- end .page-header -->
 	
-	<div class="three-fourth">
-
+  <div>
     <h4>Our Expectations</h4>
-    <p>
-    Here, we won't imprison you in some fixed position like those big companies usually do. We believe a hacker, as someone who wants to leverage technology/knowledge to make changes happen, he/she will eventually get a hand on all this stuff. That's what we expect who you are.
-    </p>
-    <p>
-    But we do need some "roles" where you could start to work with us. You could apply either one of them or multiple.
-    </p>
-    <p>
-    Here is some principles we will use to find "you":
+    <p>Here, we won't imprison you in some fixed position like those big companies usually do. We believe as a self-motivated young people who want to leverage his/her own talents to make changes happen, he/she will eventually get a hand on all this stuff. That's what we expect who you are.</p>
+
+    <p>But we do need some "roles" where you could start to work with us. Here are some principles we will use to find "you" and it is also things that we encourages in the team:</p>
+
     <ul>
-      <li> <b>Fundamentals</b> is more important than know-how.</li>
-      <li> <b>Learning ability and attitude</b> is more important than expertise. </li>
-      <li> <b>What you will do</b> is more important than what you have done.</li>
-      <li> <b>Access to solutions</b> is more important than solutions.</li>
-      <li> <b>Action</b> is more important than idea and word.</li>
+      <li> <b>Seeing the Key Point</b> Fundamentals is more important than know-how. </li>
+      <li> <b>Fast Learner</b> Learning ability and altitude is more important than know-how.</li>
+      <li> <b>Finding the Way Out</b> Access to solutions is more important than having solutions.</li>
+      <li> <b>Future and Potentiao</b> What you will do is more important than what you have done.</li>
+      <li> <b>Take Actions</b> Action is more important than idea and word.</li>
     </ul>
-    </p>
-    <p>
-      <a class="button" href="/apply.html">Apply Now</a>
-    </p>
-    <% data.roles.each do |role| %>
+  </div>
+
+
+	<div class="one-half">
+    <hr>
+    <h4>For Hacker and Designer:</h4>
+    <ul>
+      <li>Small team, passionate people.</li>
+      <li>Early adopters of new technologies.</li>
+      <li>Work with tools and languages you like.</li>
+      <li>Mostly Ruby and CoffeeScript, but we use anything solve our problem.</li>
+      <li>Emacs/Vim users.</li>
+      <li>Linux.</li>
+    </ul>
+    
+    <div class="role-list">
+    <% data.techroles.each do |role| %>
       <h4 class="acc-trigger">
         <a href="#"><%= role['name'] %></a>
       </h4>
 
-      <div class="acc-container">
+      <div class="role-item acc-container">
         <div class="content">
           <% role['requirements'].each do |line| %>
             <li><%= line %></li>
@@ -43,9 +50,48 @@ title: "We are Hiring"
         </div>
       </div>
     <% end %>
-  </div><!-- end .three-fourth -->
+    </div>
 
-  <div class="one-fourth last">
+    <p>
+      <a class="button" href="/applytech.html">Apply Tech & Design</a>
+    </p>
+  </div><!-- end .one-half -->
+
+  <div class="one-half last">
+    <hr>
+    <h4>For Business:</h4>
+    <ul>
+      <li>Be ready for challenge</li>
+      <li>Like to solve problems</li>
+      <li>Willingness to learn and think</li>
+      <li>Early adopter of new tools</li>
+      <li>Easy to communicate with</li>
+      <li>Diligence and never giving up</li> 
+    </ul>
+    
+    <div class="role-list">
+    <% data.bizroles.each do |role| %>
+      <h4 class="acc-trigger">
+        <a href="#"><%= role['name'] %></a>
+      </h4>
+
+      <div class="role-item acc-container">
+        <div class="content">
+          <% role['requirements'].each do |line| %>
+            <li><%= line %></li>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+    </div>
+
+    <p>
+      <a class="button" href="/applybiz.html">Apply Business</a>
+    </p>
+  </div><!-- end .one-half.lasty -->
+  <div class='clear'></div>
+
+  <div class="">
 
     <h4>Have other skills?</h4>
 
