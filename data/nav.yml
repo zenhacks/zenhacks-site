@@ -1,23 +1,15 @@
 -
-  name: "功能介绍"
-  description: "Features"
-  path: "/feature.html"
--
-  name: "选择满座"
-  description: "Why Us"
-  path: "/why-us-cn.html"
--
   name: "关于我们"
   description: "About Us"
   path: "/about.html"
-# -
-  # name: "Hire"
-  # description: "Where talents meet"
-  # path: "/hiring.html"
-  # sub_pages:
-    # -
-      # name: "Roles"
-      # path: "/hiring.html"
-    # -
-      # name: "Apply"
-      # path: "/apply.html"
+-
+  name: "加入我们"
+  description: "Where talents meet"
+  path: "/hiring.html"
+  sub_pages:
+    -
+      name: "Apply Biz"
+      path: "/applybiz.html"
+    -
+      name: "Apply Tech"
+      path: "/applytech.html"
