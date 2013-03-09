@@ -6,6 +6,9 @@
     -
       name: "Tech Stacks"
       path: "/tech-stack.html"
+    -
+      name: "Startup Methdology"
+      path: "/startup-meth.html"
 -
   name: "加入我们"
   description: "Where talents meet"
