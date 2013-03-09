@@ -83,3 +83,6 @@ Tech / Design Part - steven
 
 ## Zenworkshop
   coming later.
+
+[tech-stack-article]: /tech-stack.html
+[pre-apply-form]: /preapply.html
