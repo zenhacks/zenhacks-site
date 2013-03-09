@@ -1,5 +1,5 @@
 ---
-title: "Here we are"
+title: "What is Zenhacks Lab"
 ---
 
 <header class="page-header">
