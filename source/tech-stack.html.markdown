@@ -82,3 +82,8 @@ For more API-oriented backend developement, we leverage the power of [`nodeJS`](
 [`PostgreSQL`](http://postgresql.org/) is our choice for relational database for its full implementation of triggers and constrains and the [noSQL feature](http://www.postgresql.org/docs/current/static/hstore.html).
 
 We also use [`redis`](http://redis.io/) extensively. It is used for session storage, nginx cache and backend queue job processing.
+
+## Summary
+We've benefited a lot from these open source community and we use our [friday][about-article] to give back to all those great projects to make it better.
+
+[about-article]: /intro.html#zenjobs
