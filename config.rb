@@ -107,8 +107,4 @@ helpers do
   def markdown_filter(&block)
     concat(markdown(capture(&block)))
   end
-
-  def markdown(text)
-    Kramdown::Document.new(text).to_html
-  end
 end
