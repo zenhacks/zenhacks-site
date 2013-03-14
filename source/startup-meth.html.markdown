@@ -4,7 +4,7 @@ title: "How Zenhacks do Startup"
 
 <header class="page-header">
   <h1 class="page-title">How Zenhacks do Startup: Back to the Basic</h1>
-  <h2 class="page-description">Zenhacks applies the original lean thinking from *Kiichiro Toyoda* to build the real edge.</h2>
+  <h2 class="page-description">Zenhacks applies the original lean thinking from <i>Kiichiro Toyoda</i> to build the real edge.</h2>
 </header><!-- end .page-header -->
 
 Zenhacks applies the original lean thinking from *Kiichiro Toyoda* to build the real edge.
