@@ -1,9 +1,9 @@
 ---
-title: "Zenhacks Tech Stacks | Zenhacks 的技术组成"
+title: "Zenhacks Tech Stacks | 禅.海 实验室的技术组成"
 ---
 
 <header class="page-header">
-  <h1 class="page-title">Zenhacks Tech Stacks</h1>
+  <h1 class="page-title">Zenhacks Tech Stacks/ 禅.海 实验室的技术组成</h1>
   <h2 class="page-description">
     Zenhacks has a strong open source culture. We are leveraging many open source technology to ease the development process.
   </h2>
@@ -11,7 +11,7 @@ title: "Zenhacks Tech Stacks | Zenhacks 的技术组成"
   
   Zenhacks has a strong open source culture. We are leveraging many open source technology to ease the development process. Truth being told, what **we care most is not these technology we are using, but what we could accomplish on top of them**.
 
-  Zenhacks团队内有浓厚的开源文化，我们正在利用许多开源技术来实施敏捷的软件开发。虽然我们关心我们的工具和技术选择，但我们更关心的是我们可以利用这些技术完成什么。
+  禅.海团队内有浓厚的开源文化，我们正在利用许多开源技术来实施敏捷的软件开发。虽然我们关心我们的工具和技术选择，但我们更关心的是我们可以利用这些技术完成什么。
 
 * Table Of Content
 {:toc}
