@@ -95,7 +95,7 @@ Zenhacks团队内有浓厚的开源文化，我们正在利用许多开源技术
 
 #### Benefit / 福利
 
-  - Local competitive compenstation (10K+, no up limit).
+  - Local competitive compenstation.
 
   - Full coverage of social insurance + extra commercial insurance.
 
@@ -105,7 +105,7 @@ Zenhacks团队内有浓厚的开源文化，我们正在利用许多开源技术
 
   - Coverage to attend tech conference and purchase tech books.
 
-  - 在本地具有竞争力的薪酬(10K+，无上限)。
+  - 在本地具有竞争力的薪酬。
 
   - 全面覆盖的社会保险(五险一金) + 额外的商业保险。
 
