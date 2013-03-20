@@ -6,6 +6,8 @@ source 'http://ruby.taobao.org'
 
   gem "kramdown"
 
+  gem 'rake'
+
   gem 'capistrano', '~>2.0'
   gem 'capistrano-zen', git: 'https://github.com/zenhacks/capistrano-zen.git', require: false
 

@@ -7,7 +7,15 @@ title: "How Zenhacks do Startup"
   <h2 class="page-description">Zenhacks applies the original lean thinking from <i>Kiichiro Toyoda</i> to build the real edge.</h2>
 </header><!-- end .page-header -->
 
-Zenhacks applies the original lean thinking from *Kiichiro Toyoda* to build the real edge.
+Zenhacks Lab applies the [Lean Startup](http://en.wikipedia.org/wiki/Lean_Startup) philosophy to create and manage startups and get a desired product to customers' hands faster.
+
+We are good at driving startups from scratch to success: how to steer, when to turn or persevere, and grow a business with maximum acceleration.
+
+禅.海 实验室运用 [精益创业](http://wiki.mbalib.com/wiki/%E7%B2%BE%E7%9B%8A%E5%88%9B%E4%B8%9A) 的哲学来创办、管理创业企业，快速创造出用户真正渴望的产品。
+
+我们擅长从零开始驱动创业企业并获取成功：如何起步，何时转向或坚持，并以最佳的速度发展壮大。
+
+![lean-meth](/img/lean-meth.png)
 
 * Table Of Content
 {:toc}

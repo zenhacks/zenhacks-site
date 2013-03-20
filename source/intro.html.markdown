@@ -41,9 +41,14 @@ title: "What is Zenhacks Lab / 什么是禅.海 实验室"
 </div>
 
 ## How We Work
-Zenhacks applies the original lean thinking from Kiichiro Toyoda to build the real edge. [Know More][biz-article]
 
-禅.海 实验室利用丰田内部发展出来的Lean Thinking的模式来推进创新。[了解更多][biz-article]
+Zenhacks Lab applies the [Lean Startup](http://en.wikipedia.org/wiki/Lean_Startup) philosophy to create and manage startups and get a desired product to customers' hands faster.
+
+We are good at driving startups from scratch to success: how to steer, when to turn or persevere, and grow a business with maximum acceleration.  [Know More][biz-article]
+
+禅.海 实验室运用 [精益创业](http://wiki.mbalib.com/wiki/%E7%B2%BE%E7%9B%8A%E5%88%9B%E4%B8%9A) 的哲学来创办、管理创业企业，快速创造出用户真正渴望的产品。
+
+我们擅长从零开始驱动创业企业并获取成功：如何起步，何时转向或坚持，并以最佳的速度发展壮大。 [了解更多][biz-article]
 
 Zenhacks has a strong open source culture. We are leveraging many open source technology to ease the development process. Truth being told, what we care most is not these technology we are using, but what we could accomplish on top of them.[Know More][tech-stack-article]
 
