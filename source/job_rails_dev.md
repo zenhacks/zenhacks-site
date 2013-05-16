@@ -13,6 +13,7 @@ Core Rails Developer in Shanghai.
 Qualified candidates will have following qulifications:
 
 - 2 years+ experience with RoR
+- Adapted to Test-Driven Development
 - expert at Ruby, know design principles of OOP
 - expert at web programming with HTTP, TCP
 - basic knowledge about html/css/javascript
