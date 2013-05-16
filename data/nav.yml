@@ -12,11 +12,11 @@
 -
   name: "加入我们"
   description: "Where talents meet"
-  path: "/preapply.html"
-  # sub_pages:
-    # -
-      # name: "Apply Biz"
-      # path: "/applybiz.html"
-    # -
-      # name: "Apply Tech"
-      # path: "/applytech.html"
+  path: "/"
+  sub_pages:
+    -
+      name: "Position for Developer"
+      path: "/job_rails_dev.html"
+    -
+      name: "Apply for Developer"
+      path: "/dev_apply.html"

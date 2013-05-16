@@ -7,17 +7,24 @@ Zenhacks Lab innovates the way people live by the power of technology, design an
 
 [Huali Flower Shop](http://hua.li) is currently our primary projects, it changes the way people think, send and receive flowers. We've launched for 6 months now and in good shape of growth.
 
+[Apply Here](/dev_apply.html)
+
 ## What are we looking for？
 Core Rails Developer in Shanghai.
 
 Qualified candidates will have following qulifications:
 
+#### Required
 - 2 years+ experience with RoR
 - Adapted to Test-Driven Development
 - expert at Ruby, know design principles of OOP
 - expert at web programming with HTTP, TCP
 - basic knowledge about html/css/javascript
 - basic knowledge about SQL language
+
+#### Better Have
+- Experience javascript MVC framework
+- Experience with e-commerce solutions
 - fluent in linux commands
 
 ## What do we offer?
@@ -42,5 +49,7 @@ Qualified candidates will have following qulifications:
   - Startup-based options. (know the basics of [options](http://www.zhihu.com/question/19678660))
 
   - Coverage to attend tech conference and purchase tech books.
+
+[Apply Here](/dev_apply.html)
 
 [tech-stack-article]: /tech-stack.html
