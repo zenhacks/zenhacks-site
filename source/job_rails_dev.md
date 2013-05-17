@@ -5,12 +5,14 @@ title: "Jobs for Rails Developer"
 ## Who are we?
 Zenhacks Lab innovates the way people live by the power of technology, design and entrepernership. We are an international group of hackers, designers and growth hackers who are dedicated to solving real problems. We've founded several startups and will continue doing so.
 
-[Huali Flower Shop](http://hua.li) is currently our primary projects, it changes the way people think, send and receive flowers. We've launched for 6 months now and in good shape of growth.
+[Huali Flower Shop](http://hua.li) is currently our primary projects, it changes the way people think, send and receive flowers. 
+
+We've brought the idea alive in 6 months and currently it enters the period of rapid growth. We are looking for one experienced Rails developer to jump on board. BTW, We build the development environment friendly for developers to make a difference, take a look at our [tech-stacks][tech-stack-article].
 
 [Apply Here](/dev_apply.html)
 
 ## What are we looking for？
-Core Rails Developer in Shanghai.
+Experienced Rails Developer in Shanghai.
 
 Qualified candidates will have following qulifications:
 
