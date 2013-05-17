@@ -45,8 +45,6 @@ Qualified candidates will have following qulifications:
 
   - 1st class equipment. All qualified programmer will get a 27 inch IPS screen and the [HHKB](http://www.elitekeyboards.com/products.php?pid=pdkb400w) for working.
 
-  - Startup-based options. (know the basics of [options](http://www.zhihu.com/question/19678660))
-
   - Coverage to attend tech conference and purchase tech books.
 
 [Apply Here](/dev_apply.html)
