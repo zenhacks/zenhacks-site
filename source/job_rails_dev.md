@@ -17,15 +17,15 @@ Qualified candidates will have following qulifications:
 #### Required
 - 2 years+ experience with RoR
 - Adapted to Test-Driven Development
-- expert at Ruby, know design principles of OOP
-- expert at web programming with HTTP, TCP
-- basic knowledge about html/css/javascript
-- basic knowledge about SQL language
+- Expert at Ruby, know design principles of OOP
+- Expert at web programming with HTTP, TCP
+- Basic knowledge about html/css/javascript
+- Basic knowledge about SQL language
 
 #### Better Have
-- Experience javascript MVC framework
+- Experience with javascript MVC framework
 - Experience with e-commerce solutions
-- fluent in linux commands
+- Fluent in linux commands
 
 ## What do we offer?
 
@@ -39,7 +39,6 @@ Qualified candidates will have following qulifications:
   - We took Friday afternoon to invest in ourselves. We would run hackthon, workshop or send Pull Request to open source projects.
 
 ### Benefits
-
   - Local competitive compenstation.
 
   - Full coverage of social insurance + extra commercial insurance.
