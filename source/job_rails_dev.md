@@ -3,7 +3,7 @@ title: "Jobs for Rails Developer"
 ---
 
 ## Who are we?
-Zenhacks Lab innovates the way people live by the power of technology, design and entrepernership. We are an international group of hackers, designers and growth hackers who are dedicated to solving real problems. We've founded several startups and will continue doing so.
+Zenhacks Lab innovates the way people live by the power of technology, design and entrepreneurship. We are an international group of hackers, designers and growth hackers who are dedicated to solving real problems. We've founded several startups and will continue doing so.
 
 [Huali Flower Shop](http://hua.li) is currently our primary projects, it changes the way people think, send and receive flowers. 
 

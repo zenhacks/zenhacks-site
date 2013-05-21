@@ -4,10 +4,10 @@ title: "What is Zenhacks Lab / 什么是禅.海 实验室"
 
 <header class="page-header">
   <h1 class="page-title">What is Zenhacks Lab? / 什么是禅.海 实验室?</h1>
-  <h2 class="page-description">Zenhacks Lab innovates the way people live by the power of technology, design and entrepernership. </h2>
+  <h2 class="page-description">Zenhacks Lab innovates the way people live by the power of technology, design and entrepreneurship. </h2>
 </header><!-- end .page-header -->
 
-  Zenhacks Lab innovates the way people live by the power of technology, design and entrepernership. We are an international group of hackers, designers and [growth hackers ](http://techcrunch.com/2012/09/02/defining-a-growth-hacker-three-common-characteristics/) who are dedicated to solving real problems. We've founded [several](http://manzuoapp.com) [startups](http://hua.li) and will continue doing so.
+  Zenhacks Lab innovates the way people live by the power of technology, design and entrepreneurship. We are an international group of hackers, designers and [growth hackers ](http://techcrunch.com/2012/09/02/defining-a-growth-hacker-three-common-characteristics/) who are dedicated to solving real problems. We've founded [several](http://manzuoapp.com) [startups](http://hua.li) and will continue doing so.
 
   禅.海 实验室致力于借助科技、设计和企业家精神的力量改变人们的生活方式。 我们是一个由骇客、设计师以及[Growth Hacker](http://techcrunch.com/2012/09/02/defining-a-growth-hacker-three-common-characteristics/) 组成的国际化团队，我们致力于解决生活中的实际问题。我们已经建立了 [一些](http://manzuoapp.com) [创业项目](http://hua.li) 并且会坚持我们的事业。
 
