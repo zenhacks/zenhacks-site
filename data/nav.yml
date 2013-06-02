@@ -15,8 +15,14 @@
   path: "/"
   sub_pages:
     -
-      name: "Position for Developer"
-      path: "/job_rails_dev.html"
+      name: "Position for Rails Developer"
+      path: "/job/rails_dev.html"
+    # -
+      # name: "Position for iOS Developer"
+      # path: "/job/ios_dev.html"
+    # -
+      # name: "Position for UX Designer"
+      # path: "/job/ux_design.html"
     -
       name: "Apply for Developer"
       path: "/dev_apply.html"
