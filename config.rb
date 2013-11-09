@@ -53,22 +53,9 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
-
-activate :blog
-
-set :blog_permalink, "blog/:year/:title.html"
-set :blog_taglink, "categories/:tag.html"
-
 require 'kramdown'
 set :markdown_engine, :kramdown
 set :markdown, :layout_engine => :erb
-
-set :blog_layout, "post"
-set :blog_layout_engine, "ERb"
-
-# set :blog_index_template, ""
-set :blog_article_template, "post"
-
 
 page "/feed.xml", :layout => false
 
