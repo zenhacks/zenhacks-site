@@ -16,27 +16,40 @@ title: "What is Zenhacks Lab / 什么是禅.海 实验室"
 
 ## What We Have Done? / 我们已经做了什么？
 
-<div class='one-half'>
-<a href='http://hua.li'>
-  <img src='/img/logo-huali.png'/>
+<div class="one-third">
+<a href="http://hua.li">
+  <img src="/img/logo-huali.png" />
 </a>
 <p>
-  <a href='http://hua.li'>Huali</a> innovates the way people think, send and receive flowers. 
+  <a href="http://hua.li">Huali</a> innovates the way people think, send and receive flowers. 
 </p>
 <p> 
-  <a href='http://hua.li'>花里</a> 改变了人们对于鲜花思考、赠送与接受的方式。
+  <a href="http://hua.li">花里</a> 改变了人们对于鲜花思考、赠送与接受的方式。
 </p>
 </div>
 
-<div class='one-half last'>
-<a href='http://manzuoapp.com'>
-  <img src='/img/logo-manzuo.png'/>
+<div class="one-third">
+<a href="http://manzuoapp.com">
+  <img src="/img/logo-manzuo.png" />
 </a>
 <p>
-  <a href='http://manzuoapp.com'>Manzuo</a> solves the queueing problems in China.
+  <a href="http://manzuoapp.com">Manzuo</a> solves the queueing problems in China.
 </p>
 <p>
-  <a href='http://manzuoapp.com'>满座</a> 解决了在中国的排队问题。
+  <a href="http://manzuoapp.com">满座</a> 解决了在中国的排队问题。
+</p>
+</div>
+
+<div class="one-third last">
+<a href="http://yunduan.zenhacks.org/">
+  <img src="/img/logo-yun.png" />
+</a>
+<p>
+  <a href="http://yunduan.zenhacks.org/">Yunduan Travel</a>  is dedicated to provide the best outbound travel products for local agencies and travelers.
+
+</p>
+<p>
+  <a href="http://yunduan.zenhacks.org/">云端旅游</a> 致力于提供最好的境外旅游产品给本地旅行社与旅游者。
 </p>
 </div>
 
